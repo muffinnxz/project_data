@@ -3,10 +3,7 @@ $menu = "report"
 ?>
 <?php include("header.php"); ?>
 <?php
-$query_product = "
-SELECT * FROM tbl_report as p
-" or die
-("Error : ".mysqlierror($query_product));
+$query_product = "SELECT * FROM tbl_report as p";
 $rs_product = mysqli_query($condb, $query_product);
 //echo $query_product;
 ?>

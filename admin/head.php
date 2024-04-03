@@ -2,6 +2,7 @@
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="" href="../assets/img/f.png" />
   <!-- Font Awesome -->
- <!--  http://fordev22.com/ -->
+  <!--  http://fordev22.com/ -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- iCheck for checkboxes and radio inputs -->
-    <!-- http://fordev22.com/ -->
+  <!-- iCheck for checkboxes and radio inputs -->
+  <!-- http://fordev22.com/ -->
   <link rel="stylesheet" href="../assets/icheck-bootstrap.min.css">
   <!-- DataTables -->
 
@@ -39,29 +40,30 @@
   <style>
     body {
       font-family: 'Kanit', sans-serif;
-      
+
       font-size: 14px;
     }
   </style>
 
 
   <style type="text/css">
-  @media print{
-    .btn{
-       display: none; /* ซ่อน  */
+    @media print {
+      .btn {
+        display: none;
+        /* ซ่อน  */
+      }
     }
-  }
-</style>
+  </style>
 </head>
 
 <?php
 
 //error_reporting( error_reporting() & ~E_NOTICE );
- 
+
 print_r($_SESSION);
 $m_level = $_SESSION['ref_l_id'];
-if($m_level != 1 AND $m_level != 2){
-   Header("Location: ../index.php");
+if ($m_level != 1 and $m_level != 2) {
+  Header("Location: ../index.php");
 }
 
 include('../condb.php')

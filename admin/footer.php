@@ -1,13 +1,13 @@
 </div>
-  <!-- /.content-wrapper -->
+<!-- /.content-wrapper -->
 
-  
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+  <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
 
@@ -38,7 +38,7 @@
 
 
 <script>
-  $(document).ready(function () {
+  $(document).ready(function() {
     //$('.sidebar-menu').tree();
     //$('.select2').select2();
     //Initialize Select2 Elements
@@ -49,105 +49,105 @@
 </script>
 
 <script>
-$(function() {
+  $(function() {
 
     // cb(start, end);
     // $('#createContactModal').modal('show')
     $('#example1').DataTable({
-        "order": [
-            [0, "desc"]
-        ],
-        "lengthMenu": [
-            [10 ,25, 50, -1],
-            [10 ,25, 50, "All"]
-        ],
+      "order": [
+        [0, "desc"]
+      ],
+      "lengthMenu": [
+        [10, 25, 50, -1],
+        [10, 25, 50, "All"]
+      ],
 
     });
 
-    
 
-});
+
+  });
 </script>
 
-<?php if(isset($_GET['mem_editp'])){ ?>
-<script>
-  Swal.fire({
-  title: 'สำเร็จ',
-  text: 'Edit Profile | <?php echo $row['mem_name'];?>',
-  icon: 'success',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_editp'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'สำเร็จ',
+      text: 'Edit Profile | <?php echo $row['mem_name']; ?>',
+      icon: 'success',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 
-<?php if(isset($_GET['mem_error'])){ ?>
-<script>
-  Swal.fire({
-  title: 'error',
-  text: 'ข้อมูล Username ซ้ำ',
-  icon: 'error',
-  confirmButtonText: 'ตกลง'
-})
-</script>
-<?php } ?>
-
-
-<?php if(isset($_GET['mem_add'])){ ?>
-<script>
-  Swal.fire({
-  title: 'สำเร็จ',
-  text: 'บันทึกข้อมูลสำเร็จ',
-  icon: 'success',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_error'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'error',
+      text: 'ข้อมูล Username ซ้ำ',
+      icon: 'error',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 
 
-<?php if(isset($_GET['mem_edit'])){ ?>
-<script>
-  Swal.fire({
-  title: 'สำเร็จ',
-  text: 'แก้ไขข้อมูลของ <?php echo $row['mem_name'];?> สำเร็จ',
-  icon: 'success',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_add'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'สำเร็จ',
+      text: 'บันทึกข้อมูลสำเร็จ',
+      icon: 'success',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 
 
-<?php if(isset($_GET['mem_del'])){ ?>
-<script>
-  Swal.fire({
-  title: 'สำเร็จ',
-  text: 'ลบข้อมูลสำเร็จ',
-  icon: 'success',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_edit'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'สำเร็จ',
+      text: 'แก้ไขข้อมูลของ <?php echo $row['mem_name']; ?> สำเร็จ',
+      icon: 'success',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 
 
-<?php if(isset($_GET['mem_no'])){ ?>
-<script>
-  Swal.fire({
-  title: 'Error',
-  text: 'ไม่สามารถเข้าถึงได้',
-  icon: 'Error',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_del'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'สำเร็จ',
+      text: 'ลบข้อมูลสำเร็จ',
+      icon: 'success',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 
 
-<?php if(isset($_GET['report_add'])){ ?>
-<script>
-  Swal.fire({
-  title: 'สำเร็จ',
-  text: 'บันทึกข้อมูลสำเร็จ',
-  icon: 'success',
-  confirmButtonText: 'ตกลง'
-})
-</script>
+<?php if (isset($_GET['mem_no'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'Error',
+      text: 'ไม่สามารถเข้าถึงได้',
+      icon: 'Error',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
+<?php } ?>
+
+
+<?php if (isset($_GET['report_add'])) { ?>
+  <script>
+    Swal.fire({
+      title: 'สำเร็จ',
+      text: 'บันทึกข้อมูลสำเร็จ',
+      icon: 'success',
+      confirmButtonText: 'ตกลง'
+    })
+  </script>
 <?php } ?>
 <!-- http://fordev22.com/ -->

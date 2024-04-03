@@ -1,19 +1,19 @@
 </div>
-  <!-- /.content-wrapper -->
+<!-- /.content-wrapper -->
 
-  <footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-      <b>Version</b> 2.2.0
-    </div>
-    <strong>Copyright &copy; 2021 POS System<a href="http://fordev22.com/">fordev22</a>.</strong> All rights
-    reserved.
-  </footer>
+<footer class="main-footer">
+  <div class="float-right d-none d-sm-block">
+    <b>Version</b> 2.2.0
+  </div>
+  <strong>Copyright &copy; 2021 POS System<a href="http://fordev22.com/">fordev22</a>.</strong> All rights
+  reserved.
+</footer>
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+  <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
 
@@ -45,7 +45,7 @@
 <!-- http://fordev22.com/ -->
 
 <script>
-  $(document).ready(function () {
+  $(document).ready(function() {
     //$('.sidebar-menu').tree();
     //$('.select2').select2();
     //Initialize Select2 Elements
@@ -59,15 +59,15 @@
 
 
 <script>
-  $(function () {
+  $(function() {
     $('#example1').DataTable()
     $('#example2').DataTable({
-      'paging'      : true,
+      'paging': true,
       'lengthChange': false,
-      'searching'   : false,
-      'ordering'    : true,
-      'info'        : true,
-      'autoWidth'   : false
+      'searching': false,
+      'ordering': true,
+      'info': true,
+      'autoWidth': false
     })
   })
 </script>
