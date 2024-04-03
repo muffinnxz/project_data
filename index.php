@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,76 +20,81 @@
   <link href="https://fonts.googleapis.com/css?family=Kanit:400" rel="stylesheet">
 
 
-  
+
 </head>
 <style>
-  .hold-transition{
+  .hold-transition {
     background-color: #ffffff;
     background-image: url(" ");
     background-repeat: no-repeat;
 
-     background-size: 100% ;
+    background-size: 100%;
   }
-  .login-card-body{
+
+  .login-card-body {
     background-color: #ffffff;
     //*opacity: 0.5;*/
   }
-body  {
-  background-image: url("paper.gif");
-  background-color: #222;
-  
-}
-</style>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-   
-  </div>
-  <!-- /.login-logo -->
-  <div class="card">
-    <div class="card-body login-card-body">
-      <center><img width="250 px" src="logo.png"><br>
-    <h3><b>Equipment Service   </b></h3> <br><h4>Please Login</h4></center><br>
-     <!--  <p class="login-box-msg">เข้าสู่ระบบ</p> -->
 
-      <form action="chk_login.php" method="post">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" name="mem_username" id="mem_username" placeholder="Username">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-user text-primary"></span>
+  body {
+    background-image: url("paper.gif");
+    background-color: #222;
+
+  }
+</style>
+
+<body class="hold-transition login-page">
+  <div class="login-box">
+    <div class="login-logo">
+
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+      <div class="card-body login-card-body">
+        <center><img width="250 px" src="logo.png"><br>
+          <h3><b>Equipment Service </b></h3> <br>
+          <h4>Please Login</h4>
+        </center><br>
+        <!--  <p class="login-box-msg">เข้าสู่ระบบ</p> -->
+
+        <form action="chk_login.php" method="post">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" name="mem_username" id="mem_username" placeholder="Username">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-user text-primary"></span>
+              </div>
             </div>
           </div>
-        </div>
-        
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" name="mem_password" id="mem_password" placeholder="Password">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock text-primary"></span>
+
+          <div class="input-group mb-3">
+            <input type="password" class="form-control" name="mem_password" id="mem_password" placeholder="Password">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-lock text-primary"></span>
+              </div>
             </div>
           </div>
-        </div>
-        
-        <div class="social-auth-links text-center mb-3">
-          <button type="submit" class="btn btn-primary btn-block">Login</button>
-          <!-- <a href="#" class="btn btn-block btn-danger">
+
+          <div class="social-auth-links text-center mb-3">
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+            <!-- <a href="#" class="btn btn-block btn-danger">
             <i class="fab fa-google-plus mr-2"></i> พนักงานขับรถ
           </a> -->
-        </div>
-      </form>
+          </div>
+        </form>
 
-      
-      <!-- /.social-auth-links -->
 
-      
+        <!-- /.social-auth-links -->
+
+
+      </div>
+      <!-- /.login-card-body -->
+
     </div>
-    <!-- /.login-card-body -->
 
   </div>
-
-</div>
-<!-- /.login-box -->
+  <!-- /.login-box -->
 
 
 
